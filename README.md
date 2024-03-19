@@ -1,16 +1,11 @@
 # pix2pix
-CS 663 (Digital Image Processing) Project
+Advanced Machine Learning Project
 
-## Team
-#### Rajat Rathi (160050015)
-#### Anmol Singh (160050107)
-#### Gurparkash Singh (160050112)
 
 ## Overview
 
-The problem we are trying to solve is a general conversion of black and white images to colored. For this, we will be using **Conditional GANs** [Generative Adversarial Networks] to implement and extend the **pix2pix** network, which is a general neural network model to learn a mapping from one set of images to another, which, in our case will be from the set of black and white images to colored images.
-
-Our project can be easily extended to other tasks such as day to night, labels to street scene, deblurring images etc. as the basic pix2pix network is shared among all such applications. If time permits, we will try to apply our network to one of the other tasks as well. We will be using the PyTorch framework in Python to implement the network.
+This miniproject investigates the Pix2Pix Adversarial learning architecture to transform a given image. There are different variants, ranging from learning to
+colorize a monochrome image to replacing a schematic image with a photorealistic one.
 
 ## Research Papers Referred
 ### Image-to-Image Translation with Conditional Adversarial Networks [1]
@@ -25,17 +20,11 @@ This is the first paper on Generative Adversarial Networks by Ian Goodfellow et 
 
 The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class.
 
-### MIT CVCL Dataset [3]
-
-Contains multiple databases composed of scenes belonging to the same semantic category. All images are of size 256x256, in jpeg format.
 
 ## Evaluation Metrics
 
 The evaluation metric that we have used to compare the results is SSIM (Structural Similarity Index) [4] It compares two images and gives an output between 0 and 1. 1 meaning that images are exactly same and 0 meaning that they are completely different. We use it to compare the generated images and the ground truth images.
 
-## Results
-
-For results, please refer the final presentation in the report folder.
 
 ## How to run
 
