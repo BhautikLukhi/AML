@@ -64,18 +64,4 @@ Use the `eval_metrics.py` file to get the evaluation results on the images in ou
 	<li>MIT CVCL Dataset: http://cvcl.mit.edu/database.htm</li>
 	<li>SSIM: https://en.wikipedia.org/wiki/Structural_similarity</li>
 	<li>Official pix2pix Repo: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix</li>
-	<li>PyTorch Website: https://pytorch.org/</li>
 </ol>
-
-## Tutorials:
-<ul>
-	<li>Intro to GANs: https://medium.freecodecamp.org/an-intuitive-introduction-to-generative-adversarial-networks-gans-7a2264a81394</li>
-	<li>Generative Models (Stanford): https://www.youtube.com/watch?v=5WoItGTWV54&index=13&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv</li>
-	<li>GANs in PyTorch (Simple): https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f</li>
-	<li>GANs in PyTorch (Official): https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html</li>
-	<li>pix2pix Tutorial: https://towardsdatascience.com/cyclegans-and-pix2pix-5e6a5f0159c4</li>
-	<li>Colorization with GAN Repo: https://github.com/ImagingLab/Colorizing-with-GANs</li>
-	<li>GAN Hacks Repo: https://github.com/soumith/ganhacks</li>
-	<li>Installing CUDA 9.0: https://gist.github.com/zhanwenchen/e520767a409325d9961072f666815bb8</li>
-	<li>PyTorch Examples: https://cs230-stanford.github.io/pytorch-getting-started.html</li>
-</ul>
